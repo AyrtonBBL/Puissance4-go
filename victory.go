@@ -18,7 +18,7 @@ func checkVictoryLines(game Game) bool {
 	return false
 }
 
-func checkVictoryColumns(gameGame) bool {
+func checkVictoryColumns(game Game) bool {
 	symbol := game.players[game.current]
 	for col := 0; col < columns; col++ {
 		count := 0
@@ -63,7 +63,7 @@ func checkVictoryDiagonals(game Game) bool {
 	return false
 }
 
-func checkDraw(gameGame) bool {
+func checkDraw(game Game) bool {
 	for col := 0; col < columns; col++ {
 		if game.board[0][col] == empty {
 			return false
