@@ -34,4 +34,4 @@ Branches feature/, release/, hotfix/ pour organiser le travail.
 
 *docs*: modification de documentation
 
-*test*: ajout/modification de tests
+*release*: ajout/modification de nouvelles versions
