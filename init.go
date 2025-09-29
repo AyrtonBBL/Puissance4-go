@@ -20,7 +20,7 @@ func main() {
 			continue
 		}
 
-		if checkVictoryLines(game) && checkVictoryColumns(game) && checkVictoryDiagonals(game) {
+		if checkVictoryLines(game) || checkVictoryColumns(game) || checkVictoryDiagonals(game) {
 			displayBoard(&game)
 			fmt.Printf("Le joueur %c a gagné !\n", game.players[game.current])
 			game.gameOver = true
