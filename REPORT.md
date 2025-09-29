@@ -1,5 +1,16 @@
 ## Convention
 
+
+
+# Git Flow 
+
+Branche main = code en production
+
+Branche develop = code en cours de dev
+
+Branches feature/, release/, hotfix/ pour organiser le travail.
+
+
 # Convention de nommage des branches
 
 **main** va être notre branche principale, version stable.
@@ -14,6 +25,7 @@
 
 **release/<NewVersion>** sera pour préparer une nouvelle version.
 
+
 # Convention pour les messages de commit
 
 *feat*: nouvelle fonctionnalité
@@ -22,5 +34,4 @@
 
 *docs*: modification de documentation
 
-*test*: ajout/modification de tests
-
+*release*: ajout/modification de nouvelles versions
